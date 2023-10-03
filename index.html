@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Raj's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div class="name-logo">Yash Raj!</div>
+            <div class="menu">
+                <a href="#home-section">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#education-section">Education</a>
+                <a href="#skill-section">Skills</a>
+                <a href="#project-section">Projects</a>
+                <a href="./media/YASH RAJ_RESUME.pdf" download onclick="openResume()">Resume</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+            <label for="check" class="menu-btn">
+                <i class="uil uil-bars"></i>
+            </label>
+        </div>
+        <section id="home-section" class="home-section">
+            <div id="home">
+                
+                <div class="profile-details">
+                    <div class="text-1">
+                        Hey, I'm <span class="text-1-name">Yash Raj!</span>
+                    </div>
+                    <div class="text-2">Java Developer</div>
+                    <div class="text-3">A passionate Java Developer having a problem solving mindset and better team management skills. Also able to adapt different ethical work culture very easily.</div>
+                    <a href="./media/YASH RAJ_RESUME.pdf" class="appointment-btn" download onclick="openResume()">Resume &nbsp; <i class="uil uil-file-download"></i></a>
+                </div>
+                <div class="yash-image">
+                    <svg id="home_blob" viewBox="0 -20 230 215" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha">
+                            <path
+                                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path
+                                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            <image id="home_blob-image" xlink:href="media/my-img2.jpg" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section id="about-section" class="about-section">
+            <div id="about">
+                <div class="about-part-1">
+                    <div class="about-text-1">About Me</div>
+                    <div class="about-text-2">---Introduction---</div>
+                </div>
+                <div class="about-part-2">
+                    <div class="about-image">
+                        <img src="media/yash-profile.jpeg" alt="image">
+                    </div>
+                    <div class="about-intro">
+                        <div class="about-intro-text-1">
+                            A passionate Java developer with skills in building RESTful APIs, and web applications. Possess excellent problem-solving skills and the ability to work both independently and as part of a team. Passionate about learning and seeking opportunities to start my career as a Java developer and contribute to developing innovative software solutions.
+                        </div>
+                        <div class="about-intro-text-2">
+                            <div class="box-1"><span class="text-1">250+</span><br> java problems solved</div>
+                            <div class="box-2"><span class="text-2">150+</span><br> Github commits</div>
+                            <div class="box-3"><span class="text-3">50+</span><br> Leetcode problem solved</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill-section">
+            <div id="skill">
+                <div class="skill-text-1">Tech Stacks & Tools</div>
+                <div class="skill-part-1">
+                    <div class="frontend-text">Front End</div>
+                    <div class="frontend-icons">
+                        <div>
+                            <img src="media\icons8-html-5-250.png" alt="html">
+                            <div>HTML</div>
+                        </div>
+                        <div>
+                            <img src="media\icons8-css3-300.png" alt="css">
+                            <div>CSS</div>
+                        </div>
+                        <div>
+                            <img src="media\icons8-javascript-250.png" alt="js">
+                            <div>JS</div>
+                        </div>
+                    </div>
+                    <div class="backend-text">Back End</div>
+                    <div class="backend-icons">
+                        <div>
+                            <img src="media\icons8-java-250.png" alt="java">
+                            <div>Java</div>
+                        </div>
+                        <div>
+                            <img src="media\icons8-sql-100.png" alt="sql">
+                            <div>SQL</div>
+                        </div>
+                        <div>
+                            <img src="media\icons8-hibernate-100.png" alt="hibernate">
+                            <div>Hibernate</div>
+                        </div>
+                        <div>
+                            <img src="media\icons8-amazon-web-services-300.png" alt="">
+                            <div>AWS</div>
+                        </div>
+                        <div>
+                            <img src="media\icons8-rest-api-100.png" alt="api">
+                            <div>Rest API</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-part-2"></div>
+            </div>
+        </section>
+
+
+        <section id="education-section">
+            <div id="education">
+                <div class="education-header">
+                    <div class="education-text-1">Education</div>
+                    <div class="education-text-2">---Qualification---</div>
+                </div>
+                <div class="education-main">
+                    <div class="education-part-1">
+                        <div>
+                            <div class="text-1">Bachelor of Science (Mathematics Hons.)</div>
+                            <div class="text-2">B.D. College Patna</div>
+                            <div class="text-3">2018-2021</div>
+                        
+                            <br>
+                            <div class="text-4">Completed Bachelor of Science(Mathematics Hons.) from B.D. College Patna,(Patliputra University) 2018-2021 batch </div>
+                        </div>
+                    </div>
+                    <div class="education-part-2">
+                        <div>
+                            <div class="text-1">B.E.(Computer Science & Engineering)</div>
+                            <div class="text-2">KSR Institute for Engineering and Technology</div>
+                            <div class="text-3">2020-2024</div>
+                            <br>
+                            <div class="text-4">Pursuing B.E.(CSE) from K.S.R.Institute for Engineering and Technology-Tiruchengode-637215,Afflicated to Anna University,Chennai </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="project-section">
+            <div id="project">
+                <div class="project-text-1">Projects</div>
+                <div class="project-text-2">Here's a few projects, I have worked recently</div>
+
+
+
+                <div class="project-part-1">
+                    <div class="project-part-1-header">Youtube Clone</div>
+                    <div class="project-part-1-A">
+                        <div class="project-part-1-A-img">
+                            <img src="media\youtube-logo-img.png" alt="Youtube">
+                        </div>
+                        <div class="project-part-1-A-tools">
+                           
+                            <img src="media\icons8-html-5-250.png" alt="">
+                            <img src="media\icons8-css3-300.png" alt="">
+                            <img src="media\icons8-javascript-250.png" alt="">
+                        </div>
+                        <div class="project-part-1-A-tools-text">Tech Stacks</div>
+                    </div>
+                    <div class="project-part-1-B">
+                        <div class="project-part-1-B-header">Youtube Clone</div>
+                        <div class="project-part-1-B-desc">
+                            <div>
+                                <i class="uil uil-navigator"></i>
+                                It provides a user friendly interface with a similer layout to Youtube including a header , sidebar, videoPlayer and more.
+                              </div>
+                              
+                              <div>
+                                <i class="uil uil-navigator"></i>
+                                It allows users to create account and login with user authentication and also provide the optimize loading time for videos and images.
+                              </div>
+                              
+                              <div>
+                                <i class="uil uil-navigator"></i>
+                                It provide facility to subscribe to channels,leave comments on videos and like or dislike videos as choice.
+                              </div>
+                              
+                              <div>
+                                <i class="uil uil-navigator"></i>
+                                i tried to provide maximum propertis of Youtube by using HTML, CSS and JS .
+                              </div>                              
+                        </div>
+                        <div class="project-part-1-B-btn">
+                            
+                            <a href="https://github.com/yash4645/Youtube_clone.git" target="_blank"><i class="uil uil-github"></i> View Code</a>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-part-1">
+                    <div class="project-part-1-header">AppleTV</div>
+                    <div class="project-part-1-A">
+                        <div class="project-part-1-A-img">
+                            <img src="media\apple-tv-logo.jpg" alt="AppleTV">
+                        </div>
+                        <div class="project-part-1-A-tools">
+                           
+                            <img src="media\icons8-html-5-250.png" alt="">
+                            <img src="media\icons8-css3-300.png" alt="">
+                            <img src="media\icons8-javascript-250.png" alt="">
+                        </div>
+                        <div class="project-part-1-A-tools-text">Tech Stacks</div>
+                    </div>
+                    <div class="project-part-1-B">
+                        <div class="project-part-1-B-header">AppleTV Clone</div>
+                        <div class="project-part-1-B-desc">
+                            <div>
+                                <i class="uil uil-navigator"></i>
+                                Apple Tv+ includes Apple Original films and series-which are original shows and movies made exclusively for Apple. It also includes free access for anyone to watch Friday Night Baseball, provided through Apple TV+ 
+                            </div>
+                            
+                            <div>
+                                <i class="uil uil-navigator"></i>
+                                With this website, customers can easily sign up and see the movies details with user authentication and verious functionalities that offer seamless access to all the features of our website.
+                            </div>
+                            
+                            <div>
+                                <i class="uil uil-navigator"></i>
+                                And that's not all - New Shows and movies are being added to the streaming service often, so browse inside the Apple TV app.
+                            </div>                            
+                        </div>
+                        <div class="project-part-1-B-btn">
+                            
+                            <a href="https://github.com/yash4645/Apple-tv-clone.git" target="_blank"><i class="uil uil-github"></i> View Code</a>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="project-part-1">
+                    <div class="project-part-1-header">Tic-Tac-Toe</div>
+                    <div class="project-part-1-A">
+                        <div class="project-part-1-A-img">
+                            <img src="media\tic-tac-toe-image.jpg" alt="Tic-Tac-Toe">
+                        </div>
+                        <div class="project-part-1-A-tools tic-tac">
+                           
+                            <img src="media\icons8-java-250.png" alt="">
+                            
+                        </div>
+                        <div class="project-part-1-A-tools-text">Tech Stacks</div>
+                    </div>
+                    <div class="project-part-1-B">
+                        <div class="project-part-1-B-header">Tic-Tac-Toe Game</div>
+                        <div class="project-part-1-B-desc">
+                            <div><i class="uil uil-navigator"></i>
+                                This Is a console based mini project game. Name of this project is Tic Tac Toa. For playing this game two players are need. 1.Player1-> You, 2.Player2-> Cpu</div>
+                            <div><i class="uil uil-navigator"></i>
+                                Cpu will use random index and fill '0' ,While you have a choice to fill 'X' at any index you want , you have to start the game by filling 'X' at any index</div>
+                            <div><i class="uil uil-navigator"></i>
+                                If you are able to fill 3 continous 'X' in any direction then you will win.And if can't then Cpu Will win the game.And if all the columns and rows were fill and no one wins then it's a draw.</div>
+                            <div><i class="uil uil-navigator"></i>
+                                this is a very intresting game for an individual user who can play this game with cpu,by using java its provides a smooth experiance for users.
+                               </div>                            
+                        </div>
+                        <div class="project-part-1-B-btn">
+                            
+                            <a href="https://github.com/yash4645/tik-tak-toe-game.git" target="_blank"><i class="uil uil-github"></i> View Code</a>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="project-part-1">
+                    <div class="project-part-1-header">Reliance Clone</div>
+                    <div class="project-part-1-A">
+                        <div class="project-part-1-A-img">
+                            <img src="media\reliance-image.png" alt="Reliance">
+                        </div>
+                        <div class="project-part-1-A-tools">
+                            <img src="media\icons8-html-5-250.png" alt="">
+                            <img src="media\icons8-css3-300.png" alt="">
+                            <img src="media\icons8-javascript-250.png" alt="">
+                        </div>
+                        <div class="project-part-1-A-tools-text">Tech Stacks</div>
+                    </div>
+                    <div class="project-part-1-B">
+                        <div class="project-part-1-B-header">Reliance Clone</div>
+                        <div class="project-part-1-B-desc">
+                            <div>
+                                <i class="uil uil-navigator"></i>
+                                Reliance Digital is a comprehrnsive catalog of electronic products including smartphones,laptops,home-appliants,audio-video-equpments and more.
+                              </div>
+                              
+                              <div>
+                                <i class="uil uil-navigator"></i>
+                               It is a user friendly website clone that showcases products neatly with clear nevigation.
+                              </div>
+                              
+                              <div>
+                                <i class="uil uil-navigator"></i>
+                                It displays users to product details , specifications, prices and availability and to add products to their cart.
+                              </div>
+                              
+                              <div>
+                                <i class="uil uil-navigator"></i>
+                                It enable users to registeration and login to track orders ,save performance and manage personal information.
+                              </div>                              
+                        </div>
+                        <div class="project-part-1-B-btn">
+                            
+                            <a href=" https://github.com/yash4645/Reliance-digital-Clone.git" target="_blank"><i class="uil uil-github"></i> View Code</a>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="project-part-1">
+                    <div class="project-part-1-header">Ayoa</div>
+                    <div class="project-part-1-A">
+                        <div class="project-part-1-A-img">
+                            <img src="media\AYOA_Logo_JPEG.jpg" alt="ayoa">
+                        </div>
+                        <div class="project-part-1-A-tools">
+                            <img src="media\icons8-html-5-250.png" alt="">
+                            <img src="media\icons8-css3-300.png" alt="">
+                            <img src="media\icons8-javascript-250.png" alt="">
+                        </div>
+                        <div class="project-part-1-A-tools-text">Tech Stacks</div>
+                    </div>
+                    <div class="project-part-1-B">
+                        <div class="project-part-1-B-header">Ayoa Clone</div>
+                        <div class="project-part-1-B-desc">
+                            <div><i class="uil uil-navigator"></i>
+                                Welcome to AYOA, The mission of Ayoa is To transform the way we work by taking a cognitively healthy, fun, and visual approach
+                            </div>
+                            <div><i class="uil uil-navigator"></i>
+                                As an individual project, I've poured my heart and soul into creating an experience that matches the original website down to the last detail.</div>
+                            <div><i class="uil uil-navigator"></i>
+                                ere user have to login first to use the services provided by the ayoa. I have given the Signin and Signup functionality.I have used browser local storage to store the credential of the users.</div>
+                            <div><i class="uil uil-navigator"></i>
+                                And that's not all - After login you will redirect to the main page, their you can see the services that are provided by the Ayoa.</div>
+                            
+                            <br>
+                        </div>
+                        <div class="project-part-1-B-btn">
+                            
+                            <a href="https://github.com/yash4645/Ayoa_Clone.git" target="_blank"><i class="uil uil-github"></i> View Code</a>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact-section">
+            <div id="contact">
+                <div class="contact-part-1">
+                    <div class="contact-text-1">Contact Me</div>
+                    <div class="contact-text-2">--- Get in Touch ---</div>
+                </div>
+                <div class="contact-part-2">
+                    <div class="contact-part-2-A">
+                        <div>
+                            <i class="uil uil-phone"></i>
+                            <div class="contact-line"><span class="call-me-A">Call Me</span><br> +91 6203244961</div>
+                        </div>
+                        <div>
+                            <i class="uil uil-envelope-alt"></i>
+                            <div class="email-line"><span class="email-A">Email</span><br> yash46071@gmail.com
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-map-marker"></i>
+                            <div class="location-line"><span class="location-A">Location</span><br> Bettiah, Bihar -
+                                (845438)</div>
+                        </div>
+                    </div>
+                    <div class="contact-part-2-B">
+                        <input type="text" class="name" placeholder="Name">
+                        <input type="number" class="phone" placeholder="Contact No.">
+                        <input type="email" class="email" placeholder="Email">
+                        <input type="text" class="message" placeholder="Message">
+                    </div>
+                </div>
+                <span class="send-message-btn">Send Message &nbsp;<i class="uil uil-message"></i></span>
+                <div class="contact-part-3">
+                    <a href="https://github.com/yash4645" target="_blank" class="contact-github-icon">
+                        <i class="uil uil-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/yash-raj-9a88a325a" target="_blank"
+                        class="contact-linkedin-icon">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    <a href="https://twitter.com/yash46071" target="_blank" class="contact-twitter-icon">
+                        <i class="uil uil-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer-section">
+            <div><i class="uil uil-copyright"></i> Created by <span class="footer-name">Yash Raj</span> | All rights reserved.</div>
+        </section>
+    </div>
+</body>
+
+</html>
+<script src="js/script.js"></script>
+
+<script>
+    function openResume(){
+        window.open("https://drive.google.com/file/d/1-iootq1jwB2rQ24mzAK5xCfOVjJOMTKS/view?usp=drivesdk");
+    }
+</script>
+<!-- Done -->
